@@ -89,7 +89,11 @@ Uso:
       -db, --db_path DB_PATH   Path of sqlite
       -t,  --type TYPE         herrevad or wigle
  
+Ejemplo:
     
+    python3 GeoForensic.pyimport -db /home/usuario/Documents/herrevad.db -t herrevad
+
+
 
 #### Ejemplo
 En la carpeta _**Template**_ encontraremos el archivo __*.html__ en funcion de las opciones que hayamos escogido. 
