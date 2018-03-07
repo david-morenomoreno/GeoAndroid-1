@@ -55,7 +55,7 @@ Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
 
 * #### Share location browser
 
-Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/images/location.png)
+Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/blob/master/images/location.png)
 
 
 ## Installation
@@ -95,5 +95,5 @@ Uso:
 #### Ejemplo
 En la carpeta _**Template**_ encontraremos el archivo __*.html__ en funcion de las opciones que hayamos escogido. 
 
-Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/images/output.png)
+Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/blob/master/images/output.png)
 
