@@ -6,9 +6,9 @@ Actualmente exiten otros metodos de posicionar un terminal sin la necesidad de u
 
 https://developers.google.com/maps/documentation/geolocation/intro?hl=es-419
 
-### Getting started
+## Getting started
 Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
-* #####Direccion IP 
+* #### Direccion IP 
   La manera mas basica de geoposicionar un dispositivo. 
 
         datos = {
@@ -16,7 +16,7 @@ Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
         }
 
 
-* #####Wifi 
+* #### Wifi 
     Utilizacion de tecnica wardriving. Muchos personas usan dispositivos GPS para determinar la ubicación de los hotspots hallados y registrarla en un sitio web
 
         datos = {
@@ -35,7 +35,7 @@ Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
             ]
         }
         
-* #####Cell ID Tower
+* #### Cell ID Tower
     CDMA, LTE y GSM principales sistemas de radio utilizados en los teléfonos celulares. Para mas informacion     https://es.wikipedia.org/wiki/MCC/MNC
 
           
@@ -53,13 +53,13 @@ Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
             ]
         }
 
-* #####Share location browser
+* #### Share location browser
 
 
 
-### Installation
+## Installation
 
-####Obtención de Database
+#### Obtención de Database
 This database contains the WiFi connections history of preinstalled Google apps in Android OS devices. It can be WIFI connections of Google Play, Google Maps, Youtube, etc    
     
     /data/com.google.android.gms/databases/herrevad  
