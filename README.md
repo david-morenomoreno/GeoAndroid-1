@@ -55,12 +55,45 @@ Existe 4 maneras de posicionar un dispositivo sin necesidad de GPS
 
 * #### Share location browser
 
+Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/images/location.png)
 
 
 ## Installation
 
 #### Obtención de Database
-This database contains the WiFi connections history of preinstalled Google apps in Android OS devices. It can be WIFI connections of Google Play, Google Maps, Youtube, etc    
+Existen diferentes bases de datos de donde podemos sacar informacion.
+* Herrevad: This database contains the WiFi connections history of preinstalled Google apps in Android OS devices. It can be WIFI connections of Google Play, Google Maps, Youtube, etc    
+    
     
     /data/com.google.android.gms/databases/herrevad  
+    
+* Wigle:
+
+* Astro:  
+
+
+#### Instalar programa
+Para instalar el porgrama ejecutaremos los sigueintes comandos
+
+    git clone https://github.com/NoSuitsSecurity/GeoAndroid.git    
+    cd GeoAndroid
+    pip install -r requirements.txt  
+    
+Uso:
+    
+    usage: python3 GeoForensic.py [options]
+
+    Example with long option names
+    
+    optional arguments:
+      -h,  --help              Show this help message and exit
+      -db, --db_path DB_PATH   Path of sqlite
+      -t,  --type TYPE         herrevad or wigle
+ 
+    
+
+#### Ejemplo
+En la carpeta _**Template**_ encontraremos el archivo __*.html__ en funcion de las opciones que hayamos escogido. 
+
+Format: ![Alt Text](https://github.com/NoSuitsSecurity/GeoAndroid/images/output.png)
 
